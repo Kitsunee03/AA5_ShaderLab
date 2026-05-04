@@ -38,17 +38,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AA5_VIGNETTE_ON: 0
+    - _Amount: 1
     - _ENABLE_EFFECT: 0
-    - _Fullscreen_DepthWrite: 0
-    - _QueueControl: 0
-    - _QueueOffset: 0
-    - _VignetteIntensity: 1
-    - _VignetteOn: 0
-    - _VignetteRadius: 0.3
-    - _VignetteSmoothness: 0.3
-    - _VignetteSoftness: 0.5
+    - _Hardness: 0.7
+    - _baseRadius: 0.5
     m_Colors:
-    - _VignetteColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Center: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
