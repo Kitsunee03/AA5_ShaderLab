@@ -52,6 +52,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Distortion: 0.2
+    - _ENABLE_EFFECT: 0
     - _LensOn: 0
     - _QueueControl: 0
     - _QueueOffset: 0
