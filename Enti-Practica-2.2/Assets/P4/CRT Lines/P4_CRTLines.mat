@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AA5_Vignette
-  m_Shader: {fileID: -6465566751694194690, guid: 44b15158d342eaf4ba0ac48ec25f5589, type: 3}
+  m_Name: P4_CRTLines
+  m_Shader: {fileID: -6465566751694194690, guid: 9947382d8835ee64982c13c766409317, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -38,12 +38,28 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Amount: 1
+    - _CrtOn: 0
     - _ENABLE_EFFECT: 0
-    - _Hardness: 0.7
-    - _baseRadius: 0.5
-    m_Colors:
-    - _Center: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _LineFrequency: 300
+    - _LineIntensity: 0.6
+    - _LineSpeed: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Speed: 3
+    - _VerticalScale: 60
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!114 &7332619983931663537
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10

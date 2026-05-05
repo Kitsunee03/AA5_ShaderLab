@@ -506,10 +506,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1494.0,
-            "y": 475.9999694824219,
+            "x": -1474.9998779296875,
+            "y": 379.9999694824219,
             "width": 109.0,
-            "height": 33.999969482421878
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -934,13 +934,13 @@
     },
     "m_Name": "Time",
     "m_DrawState": {
-        "m_Expanded": true,
+        "m_Expanded": false,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1506.0,
+            "x": -1468.9998779296875,
             "y": 301.9999694824219,
-            "width": 124.0,
-            "height": 172.99996948242188
+            "width": 79.0,
+            "height": 77.0
         }
     },
     "m_Slots": [
@@ -1693,9 +1693,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -486.0,
-            "y": 163.0,
-            "width": 155.0,
+            "x": -480.9999694824219,
+            "y": 134.0,
+            "width": 154.99996948242188,
             "height": 128.0
         }
     },
@@ -1753,8 +1753,8 @@
     "m_ObjectId": "985a2435e21444f8bd6f483e6f60cf3e",
     "m_Title": "Movement",
     "m_Position": {
-        "x": -1531.0001220703125,
-        "y": 243.00003051757813
+        "x": -1499.9998779296875,
+        "y": 242.99998474121095
     }
 }
 
@@ -1862,8 +1862,8 @@
     "m_ObjectId": "9cdccb4331e84cf4bc3bd0e949484d6a",
     "m_Title": "Lines Mask",
     "m_Position": {
-        "x": -1180.9998779296875,
-        "y": -32.000083923339847
+        "x": -1181.0,
+        "y": -32.00000762939453
     }
 }
 
@@ -1972,8 +1972,8 @@
     "m_ObjectId": "a4c0289337264e758c1b6e891bff3a8e",
     "m_Title": "Lines",
     "m_Position": {
-        "x": -1667.9998779296875,
-        "y": -32.000083923339847
+        "x": -1668.0001220703125,
+        "y": -32.0
     }
 }
 
@@ -2232,8 +2232,8 @@
     "m_ObjectId": "b7ebc99b1fd3405a9e422d63f16e8a7c",
     "m_Title": "Lines color",
     "m_Position": {
-        "x": -1024.0,
-        "y": -502.9999694824219
+        "x": -1023.9999389648438,
+        "y": -503.0
     }
 }
 
@@ -2540,10 +2540,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1519.0,
-            "y": 176.0,
+            "x": -1498.0001220703125,
+            "y": 115.0,
             "width": 143.0,
-            "height": 34.00001525878906
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -2598,7 +2598,7 @@
     },
     "m_Name": "Split",
     "m_DrawState": {
-        "m_Expanded": true,
+        "m_Expanded": false,
         "m_Position": {
             "serializedVersion": "2",
             "x": -1495.0,

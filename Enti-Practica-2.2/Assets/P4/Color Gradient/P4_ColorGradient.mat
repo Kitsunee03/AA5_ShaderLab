@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AA5_ColorGradient
+  m_Name: P4_ColorGradient
   m_Shader: {fileID: -6465566751694194690, guid: 1c8e78fc88a18cb4b9711fad62e8fbdd, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3393237922458991990
+--- !u!114 &-6025653164672701909
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AA5_LensDistortion
-  m_Shader: {fileID: -6465566751694194690, guid: dfbc0a6d0d784004baae57045efd2416, type: 3}
+  m_Name: P4_Pixelated
+  m_Shader: {fileID: -6465566751694194690, guid: 44a0e7baaacede44bbacbaf9e958fbfc, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -51,9 +51,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Distortion: 0.2
     - _ENABLE_EFFECT: 0
-    - _LensOn: 0
+    - _PixelOn: 0
+    - _PixelSize: 150
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors: []
