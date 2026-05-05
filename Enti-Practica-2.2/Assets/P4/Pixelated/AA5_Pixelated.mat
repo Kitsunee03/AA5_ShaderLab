@@ -51,8 +51,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _ENABLE_EFFECT: 0
     - _PixelOn: 0
-    - _PixelSize: 8
+    - _PixelSize: 150
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors: []

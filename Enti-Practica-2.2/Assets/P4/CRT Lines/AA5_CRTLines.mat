@@ -39,11 +39,14 @@ Material:
     m_Ints: []
     m_Floats:
     - _CrtOn: 0
+    - _ENABLE_EFFECT: 0
     - _LineFrequency: 300
     - _LineIntensity: 0.6
     - _LineSpeed: 1
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Speed: 3
+    - _VerticalScale: 60
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
