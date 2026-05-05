@@ -57,3 +57,5 @@ MonoBehaviour:
     key: 45
   - material: {fileID: 2100000, guid: 1bd8545a016d49a3b0a507ba5e66e2b7, type: 2}
     key: 46
+  - material: {fileID: 2100000, guid: 789893460a801814581e0516d953ad6d, type: 2}
+    key: 47
