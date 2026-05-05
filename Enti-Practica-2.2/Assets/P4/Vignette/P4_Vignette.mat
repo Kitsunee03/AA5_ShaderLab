@@ -40,8 +40,7 @@ Material:
     m_Floats:
     - _Amount: 1
     - _ENABLE_EFFECT: 0
-    - _Hardness: 0.7
-    - _baseRadius: 0.5
+    - _Hardness: 0.5
     m_Colors:
     - _Center: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _Color: {r: 0, g: 0, b: 0, a: 1}
