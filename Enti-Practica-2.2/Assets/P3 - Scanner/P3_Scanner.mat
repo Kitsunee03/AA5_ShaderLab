@@ -39,13 +39,13 @@ Material:
     m_Floats:
     - _ENABLE_EFFECT: 0
     - _Frequency: 10
-    - _Line_Amount: 0.1
+    - _Line_Amount: 0.114
     - _Max_Effect_Distance: 30
-    - _Scan_Frequency: 0.001
-    - _Scan_Size: 1
-    - _Speed: 5
-    - _World_Scale: 1
+    - _Scan_Frequency: 0.1
+    - _Scan_Size: 0.611
+    - _Speed: 0.21
+    - _World_Scale: 82.41
     m_Colors:
-    - _Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.5117277, g: 0, b: 0.8584906, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
