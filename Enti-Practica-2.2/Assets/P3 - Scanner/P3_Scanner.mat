@@ -8,11 +8,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: P3_Scanner
-  m_Shader: {fileID: -6465566751694194690, guid: 2483cc94ab11e5b42953a656b841587e, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 035699de4c7617c42b4859c3ad40f194, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _SCANNER_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -37,15 +38,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ENABLE_EFFECT: 0
-    - _Frequency: 10
-    - _Line_Amount: 0.263
-    - _Max_Effect_Distance: 28.5
-    - _Scan_Frequency: 0.1
-    - _Scan_Size: 0.251
-    - _Speed: 0.1
-    - _World_Scale: 50
+    - _ENABLE_EFFECT: 1
+    - _LineAmount: 0.25
+    - _Line_Amount: 0.259
+    - _MaxEffectDistance: 50
+    - _Max_Effect_Distance: 50
+    - _SCANNER: 1
+    - _ScanFrequency: 0.57
+    - _ScanSize: 0.526
+    - _Scan_Frequency: 0.297
+    - _Scan_Size: 0.514
+    - _Speed: 3.32
+    - _WorldScale: 4.45
+    - _World_Scale: 2.51
     m_Colors:
-    - _Color: {r: 0.5117277, g: 0, b: 0.8584906, a: 0}
+    - _Color: {r: 0.42286426, g: 1, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
