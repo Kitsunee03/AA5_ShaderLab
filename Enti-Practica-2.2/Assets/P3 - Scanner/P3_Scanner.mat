@@ -40,11 +40,11 @@ Material:
     - _ENABLE_EFFECT: 0
     - _Frequency: 10
     - _Line_Amount: 0.263
-    - _Max_Effect_Distance: 30
+    - _Max_Effect_Distance: 28.5
     - _Scan_Frequency: 0.1
     - _Scan_Size: 0.251
     - _Speed: 0.1
-    - _World_Scale: 1
+    - _World_Scale: 50
     m_Colors:
     - _Color: {r: 0.5117277, g: 0, b: 0.8584906, a: 0}
   m_BuildTextureStacks: []
