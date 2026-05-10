@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7877512425600367871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8675997843925234791}
+  - component: {fileID: 3369529639572860217}
+  m_Layer: 0
+  m_Name: PostProcessController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &8675997843925234791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7877512425600367871}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3369529639572860217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7877512425600367871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b6565abe1a34c8da42142f7beb71762, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AA5PostProcessController
+  bindings:
+  - material: {fileID: 2100000, guid: 55366f19cec54452b8ed8e58d917360b, type: 2}
+    key: 41
+  - material: {fileID: 2100000, guid: a937f798ba4448d988849ee98f126e8a, type: 2}
+    key: 42
+  - material: {fileID: 2100000, guid: 8a7d860d4c554c319269d6503e919d81, type: 2}
+    key: 43
+  - material: {fileID: 2100000, guid: 87fea35551754a09acdb79764ca15287, type: 2}
+    key: 44
+  - material: {fileID: 2100000, guid: 5d93d10e585a48a49212334ca84acef6, type: 2}
+    key: 45
+  - material: {fileID: 2100000, guid: 1bd8545a016d49a3b0a507ba5e66e2b7, type: 2}
+    key: 46
+  - material: {fileID: 2100000, guid: 789893460a801814581e0516d953ad6d, type: 2}
+    key: 47

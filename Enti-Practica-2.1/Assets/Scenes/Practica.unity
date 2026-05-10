@@ -689,7 +689,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ec4c7d529d35dc9439b4e969325cad62, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -89399,7 +89399,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dda1210691c4a7a40aaf1ba90cfcf928, type: 2}
+  - {fileID: 2100000, guid: 40d21c669d7532548b8fb4b553a0fbf4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -89439,7 +89439,7 @@ Transform:
   m_GameObject: {fileID: 1778529228411962515}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.09, y: -1.431, z: -8.98}
+  m_LocalPosition: {x: -4.6, y: -1.431, z: -8.93}
   m_LocalScale: {x: 5.8643517, y: 5.8643517, z: 5.8643517}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -89456,7 +89456,6 @@ GameObject:
   - component: {fileID: 1778529228411803827}
   - component: {fileID: 1778529228411033751}
   - component: {fileID: 1778529228410034775}
-  - component: {fileID: 3003314629012732698}
   m_Layer: 0
   m_Name: Rock
   m_TagString: Untagged
@@ -89464,28 +89463,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 81
   m_IsActive: 1
---- !u!64 &3003314629012732698
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1778529228411962515}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300004, guid: 13300af2397606440935590ab87217b5, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

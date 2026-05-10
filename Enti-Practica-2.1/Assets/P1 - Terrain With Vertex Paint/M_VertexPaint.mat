@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_VertexPaint
+  m_Shader: {fileID: 4800000, guid: f5c939f0689725e4dbb762bab11382a3, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlbedoArray:
+        m_Texture: {fileID: 18700000, guid: 2d8be9f078a0a22468d926515ae982d2, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MAOHSArray:
+        m_Texture: {fileID: 18700000, guid: 569884facbdcd9f42949bfa9d01a6334, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: b08de689f522f87428b1af9d3254f558, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalArray:
+        m_Texture: {fileID: 18700000, guid: bc6ff183744d26441805d05323c639b3, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints:
+    - _IndexA: 0
+    - _IndexB: 1
+    m_Floats:
+    - _BlendDistance: 0.66
+    - _Glossiness: 0.5
+    - _IndexA: 0
+    - _IndexB: 1
+    - _Metallic: 0
+    - _SnowAO: 0.8
+    - _SnowMetallic: 0
+    - _SnowSmoothness: 0.3
+    - _UVScale: 0.2
+    - _VerticalDisplacement: 1.49
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Snow: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

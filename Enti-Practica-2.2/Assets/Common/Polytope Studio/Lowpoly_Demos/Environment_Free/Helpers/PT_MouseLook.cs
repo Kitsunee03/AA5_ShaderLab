@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 #if ENABLE_INPUT_SYSTEM
@@ -14,12 +12,12 @@ public class PT_MouseLook : MonoBehaviour
 
     private float xRotation = 0f;
 
-    void Start()
+    private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    void Update()
+    private void Update()
     {
         // ── Input ────────────────────────────────────────────────────────────
         float mouseX = 0f;
