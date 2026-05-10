@@ -1,12 +1,17 @@
 #ifndef WORLDPOS_FROM_DEPTH_INCLUDED
 #define WORLDPOS_FROM_DEPTH_INCLUDED
 
-void WorldPosFromDepth_float(float2 UV, out float3 WorldPos)
+void WorldPosFromDepth_float(float2 UV, out float3 WorldPos, out float SkyboxMask)
 {
-    // Samplea la profundidad cruda de la cámara
     float rawDepth = SHADERGRAPH_SAMPLE_SCENE_DEPTH(UV);
 
-    // Construye coordenadas NDC (-1 a 1)
+    // skybox mask: 1.0 if the pixel is skybox, 0.0 otherwise
+    #if UNITY_REVERSED_Z
+        SkyboxMask = (rawDepth < 0.0001) ? 1.0 : 0.0;
+    #else
+        SkyboxMask = (rawDepth > 0.9999) ? 1.0 : 0.0;
+    #endif
+
     float4 ndc = float4(
         UV.x * 2.0 - 1.0,
         UV.y * 2.0 - 1.0,
@@ -14,7 +19,6 @@ void WorldPosFromDepth_float(float2 UV, out float3 WorldPos)
         1.0
     );
 
-    // Transforma de clip space a world space
     float4 worldH = mul(UNITY_MATRIX_I_VP, ndc);
     WorldPos = worldH.xyz / worldH.w;
 }
