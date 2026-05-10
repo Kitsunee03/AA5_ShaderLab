@@ -38,20 +38,21 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _BOOLEAN: 0
     - _ENABLE_EFFECT: 1
     - _LineAmount: 0.25
-    - _Line_Amount: 0.259
+    - _Line_Amount: 0.089
     - _MaxEffectDistance: 50
-    - _Max_Effect_Distance: 50
+    - _Max_Effect_Distance: 150
     - _SCANNER: 1
     - _ScanFrequency: 0.57
     - _ScanSize: 0.526
-    - _Scan_Frequency: 0.297
-    - _Scan_Size: 0.514
-    - _Speed: 3.32
+    - _Scan_Frequency: 0.029
+    - _Scan_Size: 0.354
+    - _Speed: 17
     - _WorldScale: 4.45
-    - _World_Scale: 2.51
+    - _World_Scale: 0.078
     m_Colors:
-    - _Color: {r: 0.42286426, g: 1, b: 0, a: 1}
+    - _Color: {r: 0.6001993, g: 0.19339621, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
