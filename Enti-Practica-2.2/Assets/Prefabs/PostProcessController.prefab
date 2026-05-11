@@ -45,17 +45,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AA5PostProcessController
   bindings:
-  - material: {fileID: 2100000, guid: 55366f19cec54452b8ed8e58d917360b, type: 2}
+  - material: {fileID: 2100000, guid: af50e901fad9da7409f9fb5d52c26d71, type: 2}
     key: 41
-  - material: {fileID: 2100000, guid: a937f798ba4448d988849ee98f126e8a, type: 2}
+  - material: {fileID: 2100000, guid: 55366f19cec54452b8ed8e58d917360b, type: 2}
     key: 42
-  - material: {fileID: 2100000, guid: 8a7d860d4c554c319269d6503e919d81, type: 2}
+  - material: {fileID: 2100000, guid: a937f798ba4448d988849ee98f126e8a, type: 2}
     key: 43
-  - material: {fileID: 2100000, guid: 87fea35551754a09acdb79764ca15287, type: 2}
+  - material: {fileID: 2100000, guid: 8a7d860d4c554c319269d6503e919d81, type: 2}
     key: 44
-  - material: {fileID: 2100000, guid: 5d93d10e585a48a49212334ca84acef6, type: 2}
+  - material: {fileID: 2100000, guid: 87fea35551754a09acdb79764ca15287, type: 2}
     key: 45
-  - material: {fileID: 2100000, guid: 1bd8545a016d49a3b0a507ba5e66e2b7, type: 2}
+  - material: {fileID: 2100000, guid: 5d93d10e585a48a49212334ca84acef6, type: 2}
     key: 46
-  - material: {fileID: 2100000, guid: 789893460a801814581e0516d953ad6d, type: 2}
+  - material: {fileID: 2100000, guid: 1bd8545a016d49a3b0a507ba5e66e2b7, type: 2}
     key: 47
